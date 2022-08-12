@@ -15,6 +15,9 @@ const SignIn = () => {
     setErrors(error);
   }, [error]);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   function handleRegister(email, password) {
     if (!email || !password) {
       return setAlert("*Заполните все поля!");

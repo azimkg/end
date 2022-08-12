@@ -1,4 +1,5 @@
 .footer {
+  max-width: 100%;
   width: 100%;
   height: 100%;
   background: rgba(61, 86, 117, 0.4);
@@ -79,6 +80,15 @@
 }
 @media (max-width: 600px) {
   .block-block {
-    width: 180px;
+    width: 160px;
+  }
+  .footer-blocks {
+    justify-content: space-around;
+  }
+  .footer-block4 button {
+    width: 160px;
+  }
+  .footer_logo {
+    margin-left: 15px;
   }
 }

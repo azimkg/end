@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import undefined from "../../assets/404.svg";
 import { Link } from "react-router-dom";
 import "./NotFoundPAge.css";
 
 const NotFoundPAge = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="notfound_main">
       <div className="notfound_main-1">

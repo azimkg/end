@@ -13,8 +13,8 @@ const Courses = () => {
 
   useEffect(() => {
     getAllCourses();
+    window.scrollTo(0, 0);
   }, []);
-
   return (
     <div style={{ backgroundColor: "#EEEEEE", paddingTop: "40px" }}>
       {user ? (

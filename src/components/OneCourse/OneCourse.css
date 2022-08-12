@@ -84,6 +84,13 @@
 .lesson_none {
   display: none;
 }
+.border_div {
+  height: 1px;
+  max-width: 100%;
+  width: 100%;
+  background-color: #bec3c8;
+  margin: 10px auto;
+}
 @media (max-width: 767px) {
   .lesson_main {
     display: none;

@@ -2,12 +2,16 @@ import React from "react";
 import "../Footer/Footer.css";
 import "boxicons";
 import logo from "../../assets/logo.svg";
+import { useEffect } from "react";
 
 const Footer = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="footer container ">
       <div className="footer-block">
-        <img src={logo} alt="logo" />
+        <img src={logo} alt="logo" className="footer_logo" />
       </div>
 
       <div className="footer-blocks">

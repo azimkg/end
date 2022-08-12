@@ -17,6 +17,7 @@ const OneCourse = () => {
 
   useEffect(() => {
     getOneCourses(params.id);
+    window.scrollTo(0, 0);
   }, [params.id]);
 
   useEffect(() => {
@@ -81,6 +82,7 @@ const OneCourse = () => {
           </div>
           <div className="lesson_none">
             <div>
+              <h4>Выберите урок</h4>
               <select
                 className="select__none"
                 value={vales}
@@ -97,6 +99,7 @@ const OneCourse = () => {
                 ))}
               </select>
             </div>
+            <div className="border_div"></div>
             <div>
               {lessons.lesson.map((item) =>
                 item.name == vales ? (
