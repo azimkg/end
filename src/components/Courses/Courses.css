@@ -32,7 +32,7 @@
 }
 .courses_name_place:hover {
   background-color: #3166af;
-  color: #fff;
+  color: #fff !important;
 }
 .courses_name-title {
   font-size: 16px;
@@ -89,7 +89,7 @@
 }
 @media (max-width: 768px) {
   .course_name-right_title {
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
   }
 }
